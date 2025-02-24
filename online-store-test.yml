@@ -3,9 +3,9 @@ spring:
     name: online-store
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: testUsername
-    password: testPassword
-    url: jdbc:postgresql://localhost:5432/online_store
+    username: postgres
+    password: Password
+    url: jdbc:postgresql://localhost:5432/test
   jpa:
     hibernate:
       ddl-auto: update
